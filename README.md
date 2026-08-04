@@ -1,2 +1,4 @@
-Azielon AI Bootcamp notes \n
+Azielon AI Bootcamp notes
+
+
 azielon.com

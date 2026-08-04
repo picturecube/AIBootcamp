@@ -1,0 +1,22 @@
+Git commands:
+pwd - view current directory
+cd - change directory
+mkdir - create a folder
+touch - create a file
+cd .. - go to the previous directory
+git init - create a local repository in the current folder
+git add - stage files and directories
+git add -A - stage all changes
+git status - check staging status of files and directories
+git commit -m - commit changes with a commit message
+git branch - view branch
+git branch <name> - create new branch using the current branch as the source
+git checkout <name> - switch to an existing branch
+
+Extra commands:
+vim/code/notepad <file> - edit a file in Vim, VS Code, or Notepad
+explorer - open File Explorer
+explorer <file> - open a file the normal way
+git help - all Git commands
+git update-for-windows - update Git for Windows
+git -v - Git version

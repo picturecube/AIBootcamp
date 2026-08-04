@@ -1,6 +1,6 @@
 Problem Brief
 Problem Statement: Nowadays, the entire world relies on computers, companies and individuals. However, people who can't access these things, such as people in poverty, people from rural areas, or people with disabilities can find it hard to navigate the world because when asked to use some kind of a computer in everyday life or when they need to demonstrate computer skills in their job, they will fail because they were never educated in computers.
-Target User: People who don't have access to education in computers
-Why Current Solutions Fall Short: It's really hard to teach someone to use a computer optimally because things that might seem simple or make sense to you can be outlandish to them.
-My App Will...: Help users with basic computing tasks in a way that is easy to understand
+Target User: People who don't have access to education in computers and are being exposed to them for the first time
+Why Current Solutions Fall Short: It's really hard to teach someone to use a computer optimally because things that might seem simple or make sense to you can be outlandish to them. For example, most teachers or courses will tell you to click on the Chrome icon to open the browser, but people who really need those courses can't understand a word.
+My App Will...: Help users with basic computing tasks by adapting to their needs.
 Scope for 10 Days (keep it small!): Collect screenshots of different computer situations and train the AI to figure out the right one and explain it step by step using premade instructions and adapt based on user feedback.

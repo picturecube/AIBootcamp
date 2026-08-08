@@ -105,7 +105,7 @@
 | :---- | ----- |
 | **Exact input** | Accessing internet |
 | **Expected output** |<ul><li>Step 1 ... </li><li>Step 2 ... </li><li>Step 3 ... </li></ul> (very simple instructions to use a browser)|
-| **How I will know it passed** | The user gives feedback and it works for them |
+| **How I will know it passed** | The instructions correctly state the exact steps in accessing a webpage. |
 
 **Test Case 2**
 
@@ -113,7 +113,7 @@
 | :---- | :---- |
 | **Exact input** | Skibidi dop dop dop yes yes |
 | **Expected output** |<ul><li>Step 1 ... </li><li>Step 2 ... </li><li>Step 3 ... </li></ul> (very simple instructions for somebody who is already at the level where they know Internet memes)|
-| **How I will know it passed** | It is a simple guide on how to make skibidi memes on a computer, so normally the user would give positive feedback. |
+| **How I will know it passed** | The guide can successfully teach a person how to make skibidi memes. |
 
 **Test Case 3**
 
@@ -121,7 +121,7 @@
 | :---- | :---- |
 | **Exact input** | a |
 | **Expected output** |<ul><li>Step 1 ... </li><li>Step 2 ... </li><li>Step 3 ... </li></ul> (very simple instructions to type the letter A)|
-| **How I will know it passed** | If the A key on the keyboard works, the user will give positive feedback. |
+| **How I will know it passed** | The guide correctly tells how to type the letter A. |
 
 **8\. Scope Statement: Version 1**
 

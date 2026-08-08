@@ -67,6 +67,7 @@
 
 | DRAW YOUR FLOWCHART HERE |
 | :---: |
+|![flowchart](flowchart.png)|
 
 **6\. User Interface Sketch**
 
@@ -74,6 +75,7 @@
 
 | SKETCH YOUR APP SCREEN HERE |
 | :---: |
+|![app sketches](<app sketch.png>)|
 
 **7\. Two Test Cases**
 

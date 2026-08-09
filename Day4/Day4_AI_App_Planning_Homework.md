@@ -47,37 +47,37 @@
 
 **Write your program plan in plain English. Include:** START, user input, validation, processing, output, and END. Use IF/ELSE when the app must make a decision.
 
-| 1 | START |
-| :---: | :---- |
-| 2 | REPEAT |
-| 3 | ASK “What do you need help with?” |
-| 4 | IF input field empty |
-| 5 | DISPLAY "Please enter something and try again." |
-| 6 | END IF |
-| 7 | UNTIL NOT input field empty
-| 8 | SAVE INPUT |
-| 9 | PROMPT “You are a mentor and I am a teacher of basic computer skills. A student asked me (INPUT) and you need to tell me what topic to research. I only want 1-3 words that I can use.” |
-| 10 | IF NOT AI responds |
-| 11 | DISPLAY "Sorry, but something went wrong while generating your response. Please ask someone to help you check your internet connection." |
-| 12 | END |
-| 13 | END IF |
-| 14 | SAVE TOPIC |
-| 15 | PROMPT You are a teacher of basic computer skills, and I am a student. How do I (TOPIC)? Explain to me simply. |
-| 16 | IF NOT AI responds |
-| 17 | DISPLAY "Sorry, but something went wrong while generating your response. Please ask someone to help you check your internet connection." |
-| 18 | END |
-| 19 | SAVE SIMPLE\_INSTRUCTIONS |
-| 20 | REPEAT |
-| 21 | PROMPT “You are a writer. Some people don’t understand this (SIMPLE\_INSTRUCTIONS). Break down the steps and make them simpler for them, and display them. Do not lose any information in the process.” |
-| 22 | IF NOT AI responds |
-| 23 | DISPLAY "Sorry, but something went wrong while generating your response. Please ask someone to help you check your internet connection." |
-| 24 | END |
-| 25 | SAVE FINAL\_INSTRUCTIONS |
-| 26 | (SKILL\_SCORE) TIMES |
-| 27 | DISPLAY FINAL\_INSTRUCTIONS |
-| 28 | ASK "How easy were the steps to understand?" |
-| 29 | ADJUST skill_score |
-| 30 | END |
+| START |
+| :---- |
+| REPEAT |
+| ASK “What do you need help with?” |
+| IF input field empty |
+| DISPLAY "Please enter something and try again." |
+| ELSE |
+| BREAK |
+| END IF |
+| UNTIL TRUE |
+| SAVE INPUT |
+| PROMPT “You are a mentor and I am a teacher of basic computer skills. A student asked me (INPUT) and you need to tell me what topic to research. I only want 1-3 words that I can use.” |
+| IF NOT AI response recieved |
+| DISPLAY "Sorry, but something went wrong while generating your response. Please ask someone to help you check your internet connection." |
+| END |
+| END IF |
+| SAVE TOPIC |
+| PROMPT You are a teacher of basic computer skills, and I am a student. How do I (INPUT)? Research (TOPIC) if needed. Explain to me in simple terms based on my skill score of (SKILL_SCORE) from 1-10 where 1 means \"I know absolutely nothing\" and 10 means \"I know absolutely everything\". |
+| IF NOT AI responds |
+| DISPLAY "Sorry, but something went wrong while generating your response. Please ask someone to help you check your internet connection." |
+| END |
+| SAVE INSTRUCTIONS |
+| DISPLAY INSTRUCTIONS |
+| ASK "How easy were the steps to understand?" |
+| DISPLAY "Too easy" \| "Just right" \| "Too hard" |
+| IF FEEDBACK IS "Too easy" |
+| SET SKILL_SCORE TO SKILL_SCORE + 1 |
+| ELSE IF FEEDBACK IS "Too hard" |
+| SET SKILL_SCORE TO SKILL_SCORE - 1 |
+| DISPLAY "Thanks for your feedback!" |
+| END |
 
 **5\. Flowchart**
 
